@@ -262,7 +262,7 @@ async function drawLineChart() {
     .attr("y2", 37)
 
   // Set up interactions
-  const maximumPeople = 50
+  const maximumPeople = 30
   let people = []
   const markersGroup = bounds.append("g")
     .attr("class", "markers-group")
