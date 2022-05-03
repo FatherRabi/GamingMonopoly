@@ -17,20 +17,21 @@
 },{
     "sex": "male",
     "ses": "middle",
-    "Indie": 17.3,
-    "THQ": 36.5,
-    "Sony": 10.1,
+    "indie": 7.5,
+    "Other": 17.3,
+    "Microsoft": 50.5,
+    "THQ": 10.1,
     "Associate’s": 8.6,
-    "Other": 24.8
+    "Sony": 24.8
 },{
     "sex": "female",
     "ses": "middle",
-    "Microsoft": 2.4,
-    "Indie": 8.9,
-    "THQ": 32.9,
-    "Sony": 12.1,
+    "Indie": 10.4,
+    "Other": 8.9,
+    "Microsoft": 60.9,
+    "THQ": 20.1,
     "Associate’s": 11.0,
-    "Other": 32.8
+    "Sony": 32.8
 },{
     "sex": "male",
     "ses": "high",

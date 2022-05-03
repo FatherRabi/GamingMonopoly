@@ -235,7 +235,7 @@ async function drawLineChart() {
     .attr("transform", "translate(-7, 0)")
   femaleLegend.append("text")
     .attr("class", "legend-text-left")
-    .text("Bungie")
+    .text("Company with > 1 studio")
     .attr("x", -20)
   femaleLegend.append("line")
     .attr("x1", -dimensions.endsBarWidth / 2 + 1)
@@ -253,7 +253,7 @@ async function drawLineChart() {
     .attr("transform", "translate(5, 0)")
   maleLegend.append("text")
     .attr("class", "legend-text-right")
-    .text("Activision")
+    .text("1 Studio")
     .attr("x", 15)
   maleLegend.append("line")
     .attr("x1", dimensions.endsBarWidth / 2 - 3)
@@ -262,7 +262,7 @@ async function drawLineChart() {
     .attr("y2", 37)
 
   // Set up interactions
-  const maximumPeople = 10000
+  const maximumPeople = 100
   let people = []
   const markersGroup = bounds.append("g")
     .attr("class", "markers-group")
